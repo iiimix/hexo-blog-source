@@ -9,7 +9,7 @@ description: ''
 keywords:
 author: iiimix
 language: zh-CN
-timezone: '+8'
+timezone: 'Asia/Shanghai'
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
@@ -30,6 +30,7 @@ category_dir: categories
 code_dir: downloads/code
 i18n_dir: :lang
 skip_render:
+  - "about/**"
 
 # Writing
 new_post_name: :title.md # File name of new posts
